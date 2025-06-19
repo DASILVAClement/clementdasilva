@@ -1,18 +1,9 @@
 import { Link, Route, Routes } from "react-router-dom";
+import Contact from "./pages/Contact.jsx";
+import Home from "./pages/Home.jsx";
+import Services from "./pages/Services.jsx";
 
-function Home() {
-  return <h1>Accueil</h1>;
-}
-
-function Services() {
-  return <h1>Services</h1>;
-}
-
-function Contact() {
-  return <h1>Contact</h1>;
-}
-
-function App() {
+export default function App() {
   return (
     <div>
       <nav className="p-4 bg-gray-200 flex gap-4">
@@ -37,5 +28,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
